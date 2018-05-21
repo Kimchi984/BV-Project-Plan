@@ -2,16 +2,28 @@
 <html>
 <head>
   <title>Project Plan</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="col-md-8">
   <h1>Create Your Project Schedule</h1>
   <form>
     <fieldset>
+      <div class="form-row">
        <legend>Milestone #1:</legend>
-       Name: <input type="text" name="name[]">
-       Start Date: <input type="date" name="startdate[]">
-       End Date: <input type="date" name="enddate[]"><br>
-       Task/Deliverable #1 <select name="tasks[]">
+       <div class="form-group col-sm-4">
+       Name: <input type="text" class="form-control" name="name[]" />
+     </div>
+      <div class="form-group col-sm-4">
+       Start Date: <input type="date" class="form-control" name="startdate[]" />
+     </div>
+      <div class="form-group col-sm-4">
+       End Date: <input type="date" class="form-control" name="enddate[]" />
+     </div>
+   </div>
+   <div class="form-row">
+      <div class="form-group col-md-2">
+       Task/Deliverable #1 <select class="form-control" name="tasks[]">
          <optgroup label="Kick-off">
          <option value="kick-off">Kick-off Call</option>
          <option value="business">Configuration Primer</option>
@@ -46,8 +58,12 @@
            <option value="cshandover">Handover to Client Success</option>
    </optgroup>
        </select>
-       Due Date: <input type ="date" name="duedate[]"><br>
-       Task/Deliverable #2: <select name="tasks[]">
+     </div>
+     <div class="form-group col-md-1.5">
+       Due Date: <input type ="date" class="form-control" name="duedate[]"><br>
+     </div>
+   </div>
+       Task/Deliverable #2: <select class="form-control" name="tasks[]">
          <optgroup label="Kick-off">
          <option value="kick-off">Kick-off Call</option>
          <option value="business">Configuration Primer</option>
@@ -82,8 +98,8 @@
            <option value="cshandover">Handover to Client Success</option>
    </optgroup>
        </select>
-       Due Date: <input type="date" name="duedate[]"><br>
-       Task/Deliverable #3: <select name="tasks[]">
+       Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+       Task/Deliverable #3: <select class="form-control" name="tasks[]">
          <optgroup label="Kick-off">
          <option value="kick-off">Kick-off Call</option>
          <option value="business">Configuration Primer</option>
@@ -118,8 +134,8 @@
            <option value="cshandover">Handover to Client Success</option>
    </optgroup>
        </select>
-       Due Date: <input type="date" name="duedate[]"><br>
-       Task/Delivearble #4: <select name="tasks[]">
+       Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+       Task/Delivearble #4: <select class="form-control" name="tasks[]">
          <optgroup label="Kick-off">
          <option value="kick-off">Kick-off Call</option>
          <option value="business">Configuration Primer</option>
@@ -154,8 +170,8 @@
            <option value="cshandover">Handover to Client Success</option>
    </optgroup>
        </select>
-       Due Date: <input type="date" name="duedate[]"><br>
-       Task/Deliverable #5: <select name="tasks[]">
+       Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+       Task/Deliverable #5: <select class="form-control" name="tasks[]">
          <optgroup label="Kick-off">
          <option value="kick-off">Kick-off Call</option>
          <option value="business">Configuration Primer</option>
@@ -190,14 +206,14 @@
            <option value="cshandover">Handover to Client Success</option>
    </optgroup>
        </select>
-       Due Date: <input type="date" name="duedate[]">
+       Due Date: <input type="date" class="form-control" name="duedate[]">
      </fieldset>
      <fieldset>
         <legend>Milestone #2:</legend>
-        Name: <input type="text" name="name[]">
-        Start Date: <input type="date" name="startdate[]">
-        End Date: <input type="date" name="enddate[]"><br>
-        Task/Deliverable #1: <select name="tasks[]">
+        Name: <input type="text" class="form-control" name="name[]">
+        Start Date: <input type="date" class="form-control" name="startdate[]">
+        End Date: <input type="date" class="form-control" name="enddate[]"><br>
+        Task/Deliverable #1: <select class="form-control" name="tasks[]">
           <optgroup label="Kick-off">
           <option value="kick-off">Kick-off Call</option>
           <option value="business">Configuration Primer</option>
@@ -232,8 +248,8 @@
             <option value="cshandover">Handover to Client Success</option>
     </optgroup>
         </select>
-        Due Date: <input type ="date" name="duedate[]"><br>
-        Task/Deliverable #2: <select name="tasks[]">
+        Due Date: <input type ="date" class="form-control" name="duedate[]"><br>
+        Task/Deliverable #2: <select class="form-control" name="tasks[]">
           <optgroup label="Kick-off">
           <option value="kick-off">Kick-off Call</option>
           <option value="business">Configuration Primer</option>
@@ -268,8 +284,8 @@
             <option value="cshandover">Handover to Client Success</option>
     </optgroup>
         </select>
-        Due Date: <input type="date" name="duedate[]"><br>
-        Task/Deliverable #3: <select name="tasks[]">
+        Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+        Task/Deliverable #3: <select class="form-control" name="tasks[]">
           <optgroup label="Kick-off">
           <option value="kick-off">Kick-off Call</option>
           <option value="business">Configuration Primer</option>
@@ -304,8 +320,8 @@
             <option value="cshandover">Handover to Client Success</option>
     </optgroup>
         </select>
-        Due Date: <input type="date" name="duedate[]"><br>
-        Task/Delivearble #4: <select name="tasks[]">
+        Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+        Task/Delivearble #4: <select class="form-control" name="tasks[]">
           <optgroup label="Kick-off">
           <option value="kick-off">Kick-off Call</option>
           <option value="business">Configuration Primer</option>
@@ -340,8 +356,8 @@
             <option value="cshandover">Handover to Client Success</option>
     </optgroup>
         </select>
-        Due Date: <input type="date" name="duedate[]"><br>
-        Task/Deliverable #5: <select name="tasks[]">
+        Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+        Task/Deliverable #5: <select class="form-control" name="tasks[]">
           <optgroup label="Kick-off">
           <option value="kick-off">Kick-off Call</option>
           <option value="business">Configuration Primer</option>
@@ -376,14 +392,14 @@
             <option value="cshandover">Handover to Client Success</option>
     </optgroup>
         </select>
-        Due Date: <input type="date" name="duedate[]">
+        Due Date: <input type="date" class="form-control" name="duedate[]">
       </fieldset>
       <fieldset>
          <legend>Milestone #3:</legend>
-         Name: <input type="text" name="name[]">
-         Start Date: <input type="date" name="startdate[]">
-         End Date: <input type="date" name="enddate[]"><br>
-         Task/Deliverable #1: <select name="tasks[]">
+         Name: <input type="text" class="form-control" name="name[]">
+         Start Date: <input type="date" class="form-control" name="startdate[]">
+         End Date: <input type="date" class="form-control" name="enddate[]"><br>
+         Task/Deliverable #1: <select class="form-control" name="tasks[]">
            <optgroup label="Kick-off">
            <option value="kick-off">Kick-off Call</option>
            <option value="business">Configuration Primer</option>
@@ -418,8 +434,8 @@
              <option value="cshandover">Handover to Client Success</option>
      </optgroup>
          </select>
-         Due Date: <input type ="date" name="duedate[]"><br>
-         Task/Deliverable #2: <select name="tasks[]">
+         Due Date: <input type ="date" class="form-control" name="duedate[]"><br>
+         Task/Deliverable #2: <select class="form-control" name="tasks[]">
            <optgroup label="Kick-off">
            <option value="kick-off">Kick-off Call</option>
            <option value="business">Configuration Primer</option>
@@ -454,8 +470,8 @@
              <option value="cshandover">Handover to Client Success</option>
      </optgroup>
          </select>
-         Due Date: <input type="date" name="duedate[]"><br>
-         Task/Deliverable #3: <select name="tasks[]">
+         Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+         Task/Deliverable #3: <select class="form-control" name="tasks[]">
            <optgroup label="Kick-off">
            <option value="kick-off">Kick-off Call</option>
            <option value="business">Configuration Primer</option>
@@ -490,8 +506,8 @@
              <option value="cshandover">Handover to Client Success</option>
      </optgroup>
          </select>
-         Due Date: <input type="date" name="duedate[]"><br>
-         Task/Delivearble #4: <select name="tasks[]">
+         Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+         Task/Delivearble #4: <select class="form-control" name="tasks[]">
            <optgroup label="Kick-off">
            <option value="kick-off">Kick-off Call</option>
            <option value="business">Configuration Primer</option>
@@ -526,8 +542,8 @@
              <option value="cshandover">Handover to Client Success</option>
      </optgroup>
          </select>
-         Due Date: <input type="date" name="duedate[]"><br>
-         Task/Deliverable #5: <select name="tasks[]">
+         Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+         Task/Deliverable #5: <select class="form-control" name="tasks[]">
            <optgroup label="Kick-off">
            <option value="kick-off">Kick-off Call</option>
            <option value="business">Configuration Primer</option>
@@ -562,14 +578,14 @@
              <option value="cshandover">Handover to Client Success</option>
      </optgroup>
          </select>
-         Due Date: <input type="date" name="duedate[]">
+         Due Date: <input type="date" class="form-control" name="duedate[]">
        </fieldset>
        <fieldset>
           <legend>Milestone #4:</legend>
-          Name: <input type="text" name="name[]">
-          Start Date: <input type="date" name="startdate[]">
-          End Date: <input type="date" name="enddate[]"><br>
-          Task/Deliverable #1: <select name="tasks[]">
+          Name: <input type="text" class="form-control" name="name[]">
+          Start Date: <input type="date" class="form-control" name="startdate[]">
+          End Date: <input type="date" class="form-control" name="enddate[]"><br>
+          Task/Deliverable #1: <select class="form-control" name="tasks[]">
             <optgroup label="Kick-off">
             <option value="kick-off">Kick-off Call</option>
             <option value="business">Configuration Primer</option>
@@ -604,8 +620,8 @@
               <option value="cshandover">Handover to Client Success</option>
       </optgroup>
           </select>
-          Due Date: <input type ="date" name="duedate[]"><br>
-          Task/Deliverable #2: <select name="tasks[]">
+          Due Date: <input type ="date" class="form-control" name="duedate[]"><br>
+          Task/Deliverable #2: <select class="form-control" name="tasks[]">
             <optgroup label="Kick-off">
             <option value="kick-off">Kick-off Call</option>
             <option value="business">Configuration Primer</option>
@@ -640,8 +656,8 @@
               <option value="cshandover">Handover to Client Success</option>
       </optgroup>
           </select>
-          Due Date: <input type="date" name="duedate[]"><br>
-          Task/Deliverable #3: <select name="tasks[]">
+          Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+          Task/Deliverable #3: <select class="form-control" name="tasks[]">
             <optgroup label="Kick-off">
             <option value="kick-off">Kick-off Call</option>
             <option value="business">Configuration Primer</option>
@@ -676,8 +692,8 @@
               <option value="cshandover">Handover to Client Success</option>
       </optgroup>
           </select>
-          Due Date: <input type="date" name="duedate[]"><br>
-          Task/Delivearble #4: <select name="tasks[]">
+          Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+          Task/Delivearble #4: <select class="form-control" name="tasks[]">
             <optgroup label="Kick-off">
             <option value="kick-off">Kick-off Call</option>
             <option value="business">Configuration Primer</option>
@@ -712,8 +728,8 @@
               <option value="cshandover">Handover to Client Success</option>
       </optgroup>
           </select>
-          Due Date: <input type="date" name="duedate[]"><br>
-          Task/Deliverable #5: <select name="tasks[]">
+          Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+          Task/Deliverable #5: <select class="form-control" name="tasks[]">
             <optgroup label="Kick-off">
             <option value="kick-off">Kick-off Call</option>
             <option value="business">Configuration Primer</option>
@@ -748,14 +764,14 @@
               <option value="cshandover">Handover to Client Success</option>
       </optgroup>
           </select>
-          Due Date: <input type="date" name="duedate[]">
+          Due Date: <input type="date" class="form-control" name="duedate[]">
         </fieldset>
         <fieldset>
            <legend>Milestone #5:</legend>
-           Name: <input type="text" name="name[]">
-           Start Date: <input type="date" name="startdate[]">
-           End Date: <input type="date" name="enddate[]"><br>
-           Task/Deliverable #1: <select name="tasks[]">
+           Name: <input type="text" class="form-control" name="name[]">
+           Start Date: <input type="date" class="form-control" name="startdate[]">
+           End Date: <input type="date" class="form-control" name="enddate[]"><br>
+           Task/Deliverable #1: <select class="form-control" name="tasks[]">
              <optgroup label="Kick-off">
              <option value="kick-off">Kick-off Call</option>
              <option value="business">Configuration Primer</option>
@@ -790,8 +806,8 @@
                <option value="cshandover">Handover to Client Success</option>
        </optgroup>
            </select>
-           Due Date: <input type ="date" name="duedate[]"><br>
-           Task/Deliverable #2: <select name="tasks[]">
+           Due Date: <input type ="date" class="form-control" name="duedate[]"><br>
+           Task/Deliverable #2: <select class="form-control" name="tasks[]">
              <optgroup label="Kick-off">
              <option value="kick-off">Kick-off Call</option>
              <option value="business">Configuration Primer</option>
@@ -826,8 +842,8 @@
                <option value="cshandover">Handover to Client Success</option>
        </optgroup>
            </select>
-           Due Date: <input type="date" name="duedate[]"><br>
-           Task/Deliverable #3: <select name="tasks[]">
+           Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+           Task/Deliverable #3: <select class="form-control" name="tasks[]">
              <optgroup label="Kick-off">
              <option value="kick-off">Kick-off Call</option>
              <option value="business">Configuration Primer</option>
@@ -862,8 +878,8 @@
                <option value="cshandover">Handover to Client Success</option>
        </optgroup>
            </select>
-           Due Date: <input type="date" name="duedate[]"><br>
-           Task/Delivearble #4: <select name="tasks[]">
+           Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+           Task/Delivearble #4: <select class="form-control" name="tasks[]">
              <optgroup label="Kick-off">
              <option value="kick-off">Kick-off Call</option>
              <option value="business">Configuration Primer</option>
@@ -898,8 +914,8 @@
                <option value="cshandover">Handover to Client Success</option>
        </optgroup>
            </select>
-           Due Date: <input type="date" name="duedate[]"><br>
-           Task/Deliverable #5: <select name="tasks[]">
+           Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+           Task/Deliverable #5: <select class="form-control" name="tasks[]">
              <optgroup label="Kick-off">
              <option value="kick-off">Kick-off Call</option>
              <option value="business">Configuration Primer</option>
@@ -934,9 +950,9 @@
                <option value="cshandover">Handover to Client Success</option>
        </optgroup>
            </select>
-           Due Date: <input type="date" name="duedate[]">
+           Due Date: <input type="date" class="form-control" name="duedate[]">
          </fieldset>
         <input type="submit" value="Submit">
-  </form>
+        </form>
 </body>
 </html>
