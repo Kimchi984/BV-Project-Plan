@@ -8,6 +8,7 @@
 <body class="col-md-8">
   <h1>Create Your Project Schedule</h1>
   <form>
+
     <fieldset>
       <div class="form-row">
        <legend>Milestone #1:</legend>
@@ -22,9 +23,11 @@
      </div>
    </div>
    <div class="form-row">
-      <div class="form-group col-md-2">
+      <div class="form-group col-sm-4">
        Task/Deliverable #1 <select class="form-control" name="tasks[]">
+         <option value="" selected disabled>Please select</option>
          <optgroup label="Kick-off">
+
          <option value="kick-off">Kick-off Call</option>
          <option value="business">Configuration Primer</option>
          <option value="techkick-off">Technical Kick-off Call</option>
@@ -59,10 +62,12 @@
    </optgroup>
        </select>
      </div>
-     <div class="form-group col-md-1.5">
-       Due Date: <input type ="date" class="form-control" name="duedate[]"><br>
+     <div class="form-group col-sm-4">
+       Due Date: <input type ="date" class="form-control" name="duedate[]">
      </div>
    </div>
+   <div class="form-row">
+      <div class="form-group col-sm-4">
        Task/Deliverable #2: <select class="form-control" name="tasks[]">
          <optgroup label="Kick-off">
          <option value="kick-off">Kick-off Call</option>
@@ -98,7 +103,13 @@
            <option value="cshandover">Handover to Client Success</option>
    </optgroup>
        </select>
-       Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+</div>
+<div class="form-group col-sm-4">
+       Due Date: <input type="date" class="form-control" name="duedate[]">
+     </div>
+   </div>
+   <div class="form-row">
+     <div class="form-group col-sm-4">
        Task/Deliverable #3: <select class="form-control" name="tasks[]">
          <optgroup label="Kick-off">
          <option value="kick-off">Kick-off Call</option>
@@ -134,7 +145,13 @@
            <option value="cshandover">Handover to Client Success</option>
    </optgroup>
        </select>
-       Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+     </div>
+     <div class="form-group col-sm-4">
+       Due Date: <input type="date" class="form-control" name="duedate[]">
+     </div>
+   </div>
+   <div class="form-row">
+     <div class="form-group col-sm-4">
        Task/Delivearble #4: <select class="form-control" name="tasks[]">
          <optgroup label="Kick-off">
          <option value="kick-off">Kick-off Call</option>
@@ -170,8 +187,14 @@
            <option value="cshandover">Handover to Client Success</option>
    </optgroup>
        </select>
-       Due Date: <input type="date" class="form-control" name="duedate[]"><br>
-       Task/Deliverable #5: <select class="form-control" name="tasks[]">
+     </div>
+     <div class="form-group col-sm-4">
+       Due Date: <input type="date" class="form-control" name="duedate[]">
+     </div>
+   </div>
+   <div class="form-row">
+<div class="form-group col-sm-4">
+            Task/Deliverable #5: <select class="form-control" name="tasks[]">
          <optgroup label="Kick-off">
          <option value="kick-off">Kick-off Call</option>
          <option value="business">Configuration Primer</option>
@@ -206,14 +229,29 @@
            <option value="cshandover">Handover to Client Success</option>
    </optgroup>
        </select>
+     </div>
+     <div class="from-group col-sm-4">
        Due Date: <input type="date" class="form-control" name="duedate[]">
+     </div>
+   </div>
      </fieldset>
+
      <fieldset>
+       <div class="form-row">
         <legend>Milestone #2:</legend>
-        Name: <input type="text" class="form-control" name="name[]">
-        Start Date: <input type="date" class="form-control" name="startdate[]">
-        End Date: <input type="date" class="form-control" name="enddate[]"><br>
-        Task/Deliverable #1: <select class="form-control" name="tasks[]">
+        <div class="form-group col-sm-4">
+        Name: <input type="text" class="form-control" name="name[]" />
+      </div>
+       <div class="form-group col-sm-4">
+        Start Date: <input type="date" class="form-control" name="startdate[]" />
+      </div>
+       <div class="form-group col-sm-4">
+        End Date: <input type="date" class="form-control" name="enddate[]" />
+      </div>
+    </div>
+    <div class="form-row">
+       <div class="form-group col-sm-4">
+        Task/Deliverable #1 <select class="form-control" name="tasks[]">
           <optgroup label="Kick-off">
           <option value="kick-off">Kick-off Call</option>
           <option value="business">Configuration Primer</option>
@@ -248,7 +286,13 @@
             <option value="cshandover">Handover to Client Success</option>
     </optgroup>
         </select>
-        Due Date: <input type ="date" class="form-control" name="duedate[]"><br>
+      </div>
+      <div class="form-group col-sm-4">
+        Due Date: <input type ="date" class="form-control" name="duedate[]">
+      </div>
+    </div>
+    <div class="form-row">
+       <div class="form-group col-sm-4">
         Task/Deliverable #2: <select class="form-control" name="tasks[]">
           <optgroup label="Kick-off">
           <option value="kick-off">Kick-off Call</option>
@@ -284,7 +328,13 @@
             <option value="cshandover">Handover to Client Success</option>
     </optgroup>
         </select>
-        Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+ </div>
+ <div class="form-group col-sm-4">
+        Due Date: <input type="date" class="form-control" name="duedate[]">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-sm-4">
         Task/Deliverable #3: <select class="form-control" name="tasks[]">
           <optgroup label="Kick-off">
           <option value="kick-off">Kick-off Call</option>
@@ -320,7 +370,13 @@
             <option value="cshandover">Handover to Client Success</option>
     </optgroup>
         </select>
-        Due Date: <input type="date" class="form-control" name="duedate[]"><br>
+      </div>
+      <div class="form-group col-sm-4">
+        Due Date: <input type="date" class="form-control" name="duedate[]">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-sm-4">
         Task/Delivearble #4: <select class="form-control" name="tasks[]">
           <optgroup label="Kick-off">
           <option value="kick-off">Kick-off Call</option>
@@ -356,8 +412,14 @@
             <option value="cshandover">Handover to Client Success</option>
     </optgroup>
         </select>
-        Due Date: <input type="date" class="form-control" name="duedate[]"><br>
-        Task/Deliverable #5: <select class="form-control" name="tasks[]">
+      </div>
+      <div class="form-group col-sm-4">
+        Due Date: <input type="date" class="form-control" name="duedate[]">
+      </div>
+    </div>
+    <div class="form-row">
+ <div class="form-group col-sm-4">
+             Task/Deliverable #5: <select class="form-control" name="tasks[]">
           <optgroup label="Kick-off">
           <option value="kick-off">Kick-off Call</option>
           <option value="business">Configuration Primer</option>
@@ -392,567 +454,689 @@
             <option value="cshandover">Handover to Client Success</option>
     </optgroup>
         </select>
+      </div>
+      <div class="from-group col-sm-4">
         Due Date: <input type="date" class="form-control" name="duedate[]">
+      </div>
+    </div>
       </fieldset>
+
       <fieldset>
+        <div class="form-row">
          <legend>Milestone #3:</legend>
-         Name: <input type="text" class="form-control" name="name[]">
-         Start Date: <input type="date" class="form-control" name="startdate[]">
-         End Date: <input type="date" class="form-control" name="enddate[]"><br>
-         Task/Deliverable #1: <select class="form-control" name="tasks[]">
-           <optgroup label="Kick-off">
-           <option value="kick-off">Kick-off Call</option>
-           <option value="business">Configuration Primer</option>
-           <option value="techkick-off">Technical Kick-off Call</option>
-           <option value="cataloguefeed">Catalogue Feed</option>
-         </optgroup>
-         <optgroup label="Configuration">
-         <option value="termsandconditions">T&Cs</option>
-         <option value="questions">Submission Questions</option>
-         <option value="moderation">Moderation Guidelines</option>
-         <option value="email">Email Config & Templates</option>
-         <option value="workbench">Workbench Training</option>
-         <option value="syndication">Syndication</option>
-       </optgroup>
-       <optgroup label="Display">
-       <option value="displayintegration">Display Integration</option>
-       <option value="displaystyling">Display Styling</option>
-       <option value="bvpixel">BV Pixel</option>
-       <option value="seo">SEO</option>
-       <option value="container">Container Page</option>
-       <option value="piefeed">PIE feed</option>
-          </optgroup>
-          <optgroup label="Launch">
-          <option value="stagingqa">Staging QA</option>
-          <option value="launch">Launch</option>
-          <option value="prodqa">Production QA</option>
+         <div class="form-group col-sm-4">
+         Name: <input type="text" class="form-control" name="name[]" />
+       </div>
+        <div class="form-group col-sm-4">
+         Start Date: <input type="date" class="form-control" name="startdate[]" />
+       </div>
+        <div class="form-group col-sm-4">
+         End Date: <input type="date" class="form-control" name="enddate[]" />
+       </div>
+     </div>
+         <div class="form-row">
+            <div class="form-group col-sm-4">
+             Task/Deliverable #1 <select class="form-control" name="tasks[]">
+               <optgroup label="Kick-off">
+               <option value="kick-off">Kick-off Call</option>
+               <option value="business">Configuration Primer</option>
+               <option value="techkick-off">Technical Kick-off Call</option>
+               <option value="cataloguefeed">Catalogue Feed</option>
              </optgroup>
-             <optgroup label="Closure">
-             <option value="certification">Certification</option>
-             <option value="retrospective">Retrospective Call</option>
-             <option value="supporthandover">Handover to Support</option>
-             <option value="cshandover">Handover to Client Success</option>
-     </optgroup>
-         </select>
-         Due Date: <input type ="date" class="form-control" name="duedate[]"><br>
-         Task/Deliverable #2: <select class="form-control" name="tasks[]">
-           <optgroup label="Kick-off">
-           <option value="kick-off">Kick-off Call</option>
-           <option value="business">Configuration Primer</option>
-           <option value="techkick-off">Technical Kick-off Call</option>
-           <option value="cataloguefeed">Catalogue Feed</option>
+             <optgroup label="Configuration">
+             <option value="termsandconditions">T&Cs</option>
+             <option value="questions">Submission Questions</option>
+             <option value="moderation">Moderation Guidelines</option>
+             <option value="email">Email Config & Templates</option>
+             <option value="workbench">Workbench Training</option>
+             <option value="syndication">Syndication</option>
+           </optgroup>
+           <optgroup label="Display">
+           <option value="displayintegration">Display Integration</option>
+           <option value="displaystyling">Display Styling</option>
+           <option value="bvpixel">BV Pixel</option>
+           <option value="seo">SEO</option>
+           <option value="container">Container Page</option>
+           <option value="piefeed">PIE feed</option>
+              </optgroup>
+              <optgroup label="Launch">
+              <option value="stagingqa">Staging QA</option>
+              <option value="launch">Launch</option>
+              <option value="prodqa">Production QA</option>
+                 </optgroup>
+                 <optgroup label="Closure">
+                 <option value="certification">Certification</option>
+                 <option value="retrospective">Retrospective Call</option>
+                 <option value="supporthandover">Handover to Support</option>
+                 <option value="cshandover">Handover to Client Success</option>
          </optgroup>
-         <optgroup label="Configuration">
-         <option value="termsandconditions">T&Cs</option>
-         <option value="questions">Submission Questions</option>
-         <option value="moderation">Moderation Guidelines</option>
-         <option value="email">Email Config & Templates</option>
-         <option value="workbench">Workbench Training</option>
-         <option value="syndication">Syndication</option>
-       </optgroup>
-       <optgroup label="Display">
-       <option value="displayintegration">Display Integration</option>
-       <option value="displaystyling">Display Styling</option>
-       <option value="bvpixel">BV Pixel</option>
-       <option value="seo">SEO</option>
-       <option value="container">Container Page</option>
-       <option value="piefeed">PIE feed</option>
-          </optgroup>
-          <optgroup label="Launch">
-          <option value="stagingqa">Staging QA</option>
-          <option value="launch">Launch</option>
-          <option value="prodqa">Production QA</option>
+             </select>
+           </div>
+           <div class="form-group col-sm-4">
+             Due Date: <input type ="date" class="form-control" name="duedate[]">
+           </div>
+         </div>
+         <div class="form-row">
+            <div class="form-group col-sm-4">
+             Task/Deliverable #2: <select class="form-control" name="tasks[]">
+               <optgroup label="Kick-off">
+               <option value="kick-off">Kick-off Call</option>
+               <option value="business">Configuration Primer</option>
+               <option value="techkick-off">Technical Kick-off Call</option>
+               <option value="cataloguefeed">Catalogue Feed</option>
              </optgroup>
-             <optgroup label="Closure">
-             <option value="certification">Certification</option>
-             <option value="retrospective">Retrospective Call</option>
-             <option value="supporthandover">Handover to Support</option>
-             <option value="cshandover">Handover to Client Success</option>
-     </optgroup>
-         </select>
-         Due Date: <input type="date" class="form-control" name="duedate[]"><br>
-         Task/Deliverable #3: <select class="form-control" name="tasks[]">
-           <optgroup label="Kick-off">
-           <option value="kick-off">Kick-off Call</option>
-           <option value="business">Configuration Primer</option>
-           <option value="techkick-off">Technical Kick-off Call</option>
-           <option value="cataloguefeed">Catalogue Feed</option>
+             <optgroup label="Configuration">
+             <option value="termsandconditions">T&Cs</option>
+             <option value="questions">Submission Questions</option>
+             <option value="moderation">Moderation Guidelines</option>
+             <option value="email">Email Config & Templates</option>
+             <option value="workbench">Workbench Training</option>
+             <option value="syndication">Syndication</option>
+           </optgroup>
+           <optgroup label="Display">
+           <option value="displayintegration">Display Integration</option>
+           <option value="displaystyling">Display Styling</option>
+           <option value="bvpixel">BV Pixel</option>
+           <option value="seo">SEO</option>
+           <option value="container">Container Page</option>
+           <option value="piefeed">PIE feed</option>
+              </optgroup>
+              <optgroup label="Launch">
+              <option value="stagingqa">Staging QA</option>
+              <option value="launch">Launch</option>
+              <option value="prodqa">Production QA</option>
+                 </optgroup>
+                 <optgroup label="Closure">
+                 <option value="certification">Certification</option>
+                 <option value="retrospective">Retrospective Call</option>
+                 <option value="supporthandover">Handover to Support</option>
+                 <option value="cshandover">Handover to Client Success</option>
          </optgroup>
-         <optgroup label="Configuration">
-         <option value="termsandconditions">T&Cs</option>
-         <option value="questions">Submission Questions</option>
-         <option value="moderation">Moderation Guidelines</option>
-         <option value="email">Email Config & Templates</option>
-         <option value="workbench">Workbench Training</option>
-         <option value="syndication">Syndication</option>
-       </optgroup>
-       <optgroup label="Display">
-       <option value="displayintegration">Display Integration</option>
-       <option value="displaystyling">Display Styling</option>
-       <option value="bvpixel">BV Pixel</option>
-       <option value="seo">SEO</option>
-       <option value="container">Container Page</option>
-       <option value="piefeed">PIE feed</option>
-          </optgroup>
-          <optgroup label="Launch">
-          <option value="stagingqa">Staging QA</option>
-          <option value="launch">Launch</option>
-          <option value="prodqa">Production QA</option>
+             </select>
+      </div>
+      <div class="form-group col-sm-4">
+             Due Date: <input type="date" class="form-control" name="duedate[]">
+           </div>
+         </div>
+         <div class="form-row">
+           <div class="form-group col-sm-4">
+             Task/Deliverable #3: <select class="form-control" name="tasks[]">
+               <optgroup label="Kick-off">
+               <option value="kick-off">Kick-off Call</option>
+               <option value="business">Configuration Primer</option>
+               <option value="techkick-off">Technical Kick-off Call</option>
+               <option value="cataloguefeed">Catalogue Feed</option>
              </optgroup>
-             <optgroup label="Closure">
-             <option value="certification">Certification</option>
-             <option value="retrospective">Retrospective Call</option>
-             <option value="supporthandover">Handover to Support</option>
-             <option value="cshandover">Handover to Client Success</option>
-     </optgroup>
-         </select>
-         Due Date: <input type="date" class="form-control" name="duedate[]"><br>
-         Task/Delivearble #4: <select class="form-control" name="tasks[]">
-           <optgroup label="Kick-off">
-           <option value="kick-off">Kick-off Call</option>
-           <option value="business">Configuration Primer</option>
-           <option value="techkick-off">Technical Kick-off Call</option>
-           <option value="cataloguefeed">Catalogue Feed</option>
+             <optgroup label="Configuration">
+             <option value="termsandconditions">T&Cs</option>
+             <option value="questions">Submission Questions</option>
+             <option value="moderation">Moderation Guidelines</option>
+             <option value="email">Email Config & Templates</option>
+             <option value="workbench">Workbench Training</option>
+             <option value="syndication">Syndication</option>
+           </optgroup>
+           <optgroup label="Display">
+           <option value="displayintegration">Display Integration</option>
+           <option value="displaystyling">Display Styling</option>
+           <option value="bvpixel">BV Pixel</option>
+           <option value="seo">SEO</option>
+           <option value="container">Container Page</option>
+           <option value="piefeed">PIE feed</option>
+              </optgroup>
+              <optgroup label="Launch">
+              <option value="stagingqa">Staging QA</option>
+              <option value="launch">Launch</option>
+              <option value="prodqa">Production QA</option>
+                 </optgroup>
+                 <optgroup label="Closure">
+                 <option value="certification">Certification</option>
+                 <option value="retrospective">Retrospective Call</option>
+                 <option value="supporthandover">Handover to Support</option>
+                 <option value="cshandover">Handover to Client Success</option>
          </optgroup>
-         <optgroup label="Configuration">
-         <option value="termsandconditions">T&Cs</option>
-         <option value="questions">Submission Questions</option>
-         <option value="moderation">Moderation Guidelines</option>
-         <option value="email">Email Config & Templates</option>
-         <option value="workbench">Workbench Training</option>
-         <option value="syndication">Syndication</option>
-       </optgroup>
-       <optgroup label="Display">
-       <option value="displayintegration">Display Integration</option>
-       <option value="displaystyling">Display Styling</option>
-       <option value="bvpixel">BV Pixel</option>
-       <option value="seo">SEO</option>
-       <option value="container">Container Page</option>
-       <option value="piefeed">PIE feed</option>
-          </optgroup>
-          <optgroup label="Launch">
-          <option value="stagingqa">Staging QA</option>
-          <option value="launch">Launch</option>
-          <option value="prodqa">Production QA</option>
+             </select>
+           </div>
+           <div class="form-group col-sm-4">
+             Due Date: <input type="date" class="form-control" name="duedate[]">
+           </div>
+         </div>
+         <div class="form-row">
+           <div class="form-group col-sm-4">
+             Task/Delivearble #4: <select class="form-control" name="tasks[]">
+               <optgroup label="Kick-off">
+               <option value="kick-off">Kick-off Call</option>
+               <option value="business">Configuration Primer</option>
+               <option value="techkick-off">Technical Kick-off Call</option>
+               <option value="cataloguefeed">Catalogue Feed</option>
              </optgroup>
-             <optgroup label="Closure">
-             <option value="certification">Certification</option>
-             <option value="retrospective">Retrospective Call</option>
-             <option value="supporthandover">Handover to Support</option>
-             <option value="cshandover">Handover to Client Success</option>
-     </optgroup>
-         </select>
-         Due Date: <input type="date" class="form-control" name="duedate[]"><br>
-         Task/Deliverable #5: <select class="form-control" name="tasks[]">
-           <optgroup label="Kick-off">
-           <option value="kick-off">Kick-off Call</option>
-           <option value="business">Configuration Primer</option>
-           <option value="techkick-off">Technical Kick-off Call</option>
-           <option value="cataloguefeed">Catalogue Feed</option>
+             <optgroup label="Configuration">
+             <option value="termsandconditions">T&Cs</option>
+             <option value="questions">Submission Questions</option>
+             <option value="moderation">Moderation Guidelines</option>
+             <option value="email">Email Config & Templates</option>
+             <option value="workbench">Workbench Training</option>
+             <option value="syndication">Syndication</option>
+           </optgroup>
+           <optgroup label="Display">
+           <option value="displayintegration">Display Integration</option>
+           <option value="displaystyling">Display Styling</option>
+           <option value="bvpixel">BV Pixel</option>
+           <option value="seo">SEO</option>
+           <option value="container">Container Page</option>
+           <option value="piefeed">PIE feed</option>
+              </optgroup>
+              <optgroup label="Launch">
+              <option value="stagingqa">Staging QA</option>
+              <option value="launch">Launch</option>
+              <option value="prodqa">Production QA</option>
+                 </optgroup>
+                 <optgroup label="Closure">
+                 <option value="certification">Certification</option>
+                 <option value="retrospective">Retrospective Call</option>
+                 <option value="supporthandover">Handover to Support</option>
+                 <option value="cshandover">Handover to Client Success</option>
          </optgroup>
-         <optgroup label="Configuration">
-         <option value="termsandconditions">T&Cs</option>
-         <option value="questions">Submission Questions</option>
-         <option value="moderation">Moderation Guidelines</option>
-         <option value="email">Email Config & Templates</option>
-         <option value="workbench">Workbench Training</option>
-         <option value="syndication">Syndication</option>
-       </optgroup>
-       <optgroup label="Display">
-       <option value="displayintegration">Display Integration</option>
-       <option value="displaystyling">Display Styling</option>
-       <option value="bvpixel">BV Pixel</option>
-       <option value="seo">SEO</option>
-       <option value="container">Container Page</option>
-       <option value="piefeed">PIE feed</option>
-          </optgroup>
-          <optgroup label="Launch">
-          <option value="stagingqa">Staging QA</option>
-          <option value="launch">Launch</option>
-          <option value="prodqa">Production QA</option>
+             </select>
+           </div>
+           <div class="form-group col-sm-4">
+             Due Date: <input type="date" class="form-control" name="duedate[]">
+           </div>
+         </div>
+         <div class="form-row">
+      <div class="form-group col-sm-4">
+                  Task/Deliverable #5: <select class="form-control" name="tasks[]">
+               <optgroup label="Kick-off">
+               <option value="kick-off">Kick-off Call</option>
+               <option value="business">Configuration Primer</option>
+               <option value="techkick-off">Technical Kick-off Call</option>
+               <option value="cataloguefeed">Catalogue Feed</option>
              </optgroup>
-             <optgroup label="Closure">
-             <option value="certification">Certification</option>
-             <option value="retrospective">Retrospective Call</option>
-             <option value="supporthandover">Handover to Support</option>
-             <option value="cshandover">Handover to Client Success</option>
-     </optgroup>
-         </select>
-         Due Date: <input type="date" class="form-control" name="duedate[]">
+             <optgroup label="Configuration">
+             <option value="termsandconditions">T&Cs</option>
+             <option value="questions">Submission Questions</option>
+             <option value="moderation">Moderation Guidelines</option>
+             <option value="email">Email Config & Templates</option>
+             <option value="workbench">Workbench Training</option>
+             <option value="syndication">Syndication</option>
+           </optgroup>
+           <optgroup label="Display">
+           <option value="displayintegration">Display Integration</option>
+           <option value="displaystyling">Display Styling</option>
+           <option value="bvpixel">BV Pixel</option>
+           <option value="seo">SEO</option>
+           <option value="container">Container Page</option>
+           <option value="piefeed">PIE feed</option>
+              </optgroup>
+              <optgroup label="Launch">
+              <option value="stagingqa">Staging QA</option>
+              <option value="launch">Launch</option>
+              <option value="prodqa">Production QA</option>
+                 </optgroup>
+                 <optgroup label="Closure">
+                 <option value="certification">Certification</option>
+                 <option value="retrospective">Retrospective Call</option>
+                 <option value="supporthandover">Handover to Support</option>
+                 <option value="cshandover">Handover to Client Success</option>
+         </optgroup>
+             </select>
+           </div>
+           <div class="from-group col-sm-4">
+             Due Date: <input type="date" class="form-control" name="duedate[]">
+           </div>
+         </div>
        </fieldset>
+
        <fieldset>
+         <div class="form-row">
           <legend>Milestone #4:</legend>
-          Name: <input type="text" class="form-control" name="name[]">
-          Start Date: <input type="date" class="form-control" name="startdate[]">
-          End Date: <input type="date" class="form-control" name="enddate[]"><br>
-          Task/Deliverable #1: <select class="form-control" name="tasks[]">
-            <optgroup label="Kick-off">
-            <option value="kick-off">Kick-off Call</option>
-            <option value="business">Configuration Primer</option>
-            <option value="techkick-off">Technical Kick-off Call</option>
-            <option value="cataloguefeed">Catalogue Feed</option>
-          </optgroup>
-          <optgroup label="Configuration">
-          <option value="termsandconditions">T&Cs</option>
-          <option value="questions">Submission Questions</option>
-          <option value="moderation">Moderation Guidelines</option>
-          <option value="email">Email Config & Templates</option>
-          <option value="workbench">Workbench Training</option>
-          <option value="syndication">Syndication</option>
-        </optgroup>
-        <optgroup label="Display">
-        <option value="displayintegration">Display Integration</option>
-        <option value="displaystyling">Display Styling</option>
-        <option value="bvpixel">BV Pixel</option>
-        <option value="seo">SEO</option>
-        <option value="container">Container Page</option>
-        <option value="piefeed">PIE feed</option>
-           </optgroup>
-           <optgroup label="Launch">
-           <option value="stagingqa">Staging QA</option>
-           <option value="launch">Launch</option>
-           <option value="prodqa">Production QA</option>
+          <div class="form-group col-sm-4">
+          Name: <input type="text" class="form-control" name="name[]" />
+        </div>
+         <div class="form-group col-sm-4">
+          Start Date: <input type="date" class="form-control" name="startdate[]" />
+        </div>
+         <div class="form-group col-sm-4">
+          End Date: <input type="date" class="form-control" name="enddate[]" />
+        </div>
+      </div>
+          <div class="form-row">
+             <div class="form-group col-sm-4">
+              Task/Deliverable #1 <select class="form-control" name="tasks[]">
+                <optgroup label="Kick-off">
+                <option value="kick-off">Kick-off Call</option>
+                <option value="business">Configuration Primer</option>
+                <option value="techkick-off">Technical Kick-off Call</option>
+                <option value="cataloguefeed">Catalogue Feed</option>
               </optgroup>
-              <optgroup label="Closure">
-              <option value="certification">Certification</option>
-              <option value="retrospective">Retrospective Call</option>
-              <option value="supporthandover">Handover to Support</option>
-              <option value="cshandover">Handover to Client Success</option>
-      </optgroup>
-          </select>
-          Due Date: <input type ="date" class="form-control" name="duedate[]"><br>
-          Task/Deliverable #2: <select class="form-control" name="tasks[]">
-            <optgroup label="Kick-off">
-            <option value="kick-off">Kick-off Call</option>
-            <option value="business">Configuration Primer</option>
-            <option value="techkick-off">Technical Kick-off Call</option>
-            <option value="cataloguefeed">Catalogue Feed</option>
+              <optgroup label="Configuration">
+              <option value="termsandconditions">T&Cs</option>
+              <option value="questions">Submission Questions</option>
+              <option value="moderation">Moderation Guidelines</option>
+              <option value="email">Email Config & Templates</option>
+              <option value="workbench">Workbench Training</option>
+              <option value="syndication">Syndication</option>
+            </optgroup>
+            <optgroup label="Display">
+            <option value="displayintegration">Display Integration</option>
+            <option value="displaystyling">Display Styling</option>
+            <option value="bvpixel">BV Pixel</option>
+            <option value="seo">SEO</option>
+            <option value="container">Container Page</option>
+            <option value="piefeed">PIE feed</option>
+               </optgroup>
+               <optgroup label="Launch">
+               <option value="stagingqa">Staging QA</option>
+               <option value="launch">Launch</option>
+               <option value="prodqa">Production QA</option>
+                  </optgroup>
+                  <optgroup label="Closure">
+                  <option value="certification">Certification</option>
+                  <option value="retrospective">Retrospective Call</option>
+                  <option value="supporthandover">Handover to Support</option>
+                  <option value="cshandover">Handover to Client Success</option>
           </optgroup>
-          <optgroup label="Configuration">
-          <option value="termsandconditions">T&Cs</option>
-          <option value="questions">Submission Questions</option>
-          <option value="moderation">Moderation Guidelines</option>
-          <option value="email">Email Config & Templates</option>
-          <option value="workbench">Workbench Training</option>
-          <option value="syndication">Syndication</option>
-        </optgroup>
-        <optgroup label="Display">
-        <option value="displayintegration">Display Integration</option>
-        <option value="displaystyling">Display Styling</option>
-        <option value="bvpixel">BV Pixel</option>
-        <option value="seo">SEO</option>
-        <option value="container">Container Page</option>
-        <option value="piefeed">PIE feed</option>
-           </optgroup>
-           <optgroup label="Launch">
-           <option value="stagingqa">Staging QA</option>
-           <option value="launch">Launch</option>
-           <option value="prodqa">Production QA</option>
+              </select>
+            </div>
+            <div class="form-group col-sm-4">
+              Due Date: <input type ="date" class="form-control" name="duedate[]">
+            </div>
+          </div>
+          <div class="form-row">
+             <div class="form-group col-sm-4">
+              Task/Deliverable #2: <select class="form-control" name="tasks[]">
+                <optgroup label="Kick-off">
+                <option value="kick-off">Kick-off Call</option>
+                <option value="business">Configuration Primer</option>
+                <option value="techkick-off">Technical Kick-off Call</option>
+                <option value="cataloguefeed">Catalogue Feed</option>
               </optgroup>
-              <optgroup label="Closure">
-              <option value="certification">Certification</option>
-              <option value="retrospective">Retrospective Call</option>
-              <option value="supporthandover">Handover to Support</option>
-              <option value="cshandover">Handover to Client Success</option>
-      </optgroup>
-          </select>
-          Due Date: <input type="date" class="form-control" name="duedate[]"><br>
-          Task/Deliverable #3: <select class="form-control" name="tasks[]">
-            <optgroup label="Kick-off">
-            <option value="kick-off">Kick-off Call</option>
-            <option value="business">Configuration Primer</option>
-            <option value="techkick-off">Technical Kick-off Call</option>
-            <option value="cataloguefeed">Catalogue Feed</option>
+              <optgroup label="Configuration">
+              <option value="termsandconditions">T&Cs</option>
+              <option value="questions">Submission Questions</option>
+              <option value="moderation">Moderation Guidelines</option>
+              <option value="email">Email Config & Templates</option>
+              <option value="workbench">Workbench Training</option>
+              <option value="syndication">Syndication</option>
+            </optgroup>
+            <optgroup label="Display">
+            <option value="displayintegration">Display Integration</option>
+            <option value="displaystyling">Display Styling</option>
+            <option value="bvpixel">BV Pixel</option>
+            <option value="seo">SEO</option>
+            <option value="container">Container Page</option>
+            <option value="piefeed">PIE feed</option>
+               </optgroup>
+               <optgroup label="Launch">
+               <option value="stagingqa">Staging QA</option>
+               <option value="launch">Launch</option>
+               <option value="prodqa">Production QA</option>
+                  </optgroup>
+                  <optgroup label="Closure">
+                  <option value="certification">Certification</option>
+                  <option value="retrospective">Retrospective Call</option>
+                  <option value="supporthandover">Handover to Support</option>
+                  <option value="cshandover">Handover to Client Success</option>
           </optgroup>
-          <optgroup label="Configuration">
-          <option value="termsandconditions">T&Cs</option>
-          <option value="questions">Submission Questions</option>
-          <option value="moderation">Moderation Guidelines</option>
-          <option value="email">Email Config & Templates</option>
-          <option value="workbench">Workbench Training</option>
-          <option value="syndication">Syndication</option>
-        </optgroup>
-        <optgroup label="Display">
-        <option value="displayintegration">Display Integration</option>
-        <option value="displaystyling">Display Styling</option>
-        <option value="bvpixel">BV Pixel</option>
-        <option value="seo">SEO</option>
-        <option value="container">Container Page</option>
-        <option value="piefeed">PIE feed</option>
-           </optgroup>
-           <optgroup label="Launch">
-           <option value="stagingqa">Staging QA</option>
-           <option value="launch">Launch</option>
-           <option value="prodqa">Production QA</option>
+              </select>
+       </div>
+       <div class="form-group col-sm-4">
+              Due Date: <input type="date" class="form-control" name="duedate[]">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-sm-4">
+              Task/Deliverable #3: <select class="form-control" name="tasks[]">
+                <optgroup label="Kick-off">
+                <option value="kick-off">Kick-off Call</option>
+                <option value="business">Configuration Primer</option>
+                <option value="techkick-off">Technical Kick-off Call</option>
+                <option value="cataloguefeed">Catalogue Feed</option>
               </optgroup>
-              <optgroup label="Closure">
-              <option value="certification">Certification</option>
-              <option value="retrospective">Retrospective Call</option>
-              <option value="supporthandover">Handover to Support</option>
-              <option value="cshandover">Handover to Client Success</option>
-      </optgroup>
-          </select>
-          Due Date: <input type="date" class="form-control" name="duedate[]"><br>
-          Task/Delivearble #4: <select class="form-control" name="tasks[]">
-            <optgroup label="Kick-off">
-            <option value="kick-off">Kick-off Call</option>
-            <option value="business">Configuration Primer</option>
-            <option value="techkick-off">Technical Kick-off Call</option>
-            <option value="cataloguefeed">Catalogue Feed</option>
+              <optgroup label="Configuration">
+              <option value="termsandconditions">T&Cs</option>
+              <option value="questions">Submission Questions</option>
+              <option value="moderation">Moderation Guidelines</option>
+              <option value="email">Email Config & Templates</option>
+              <option value="workbench">Workbench Training</option>
+              <option value="syndication">Syndication</option>
+            </optgroup>
+            <optgroup label="Display">
+            <option value="displayintegration">Display Integration</option>
+            <option value="displaystyling">Display Styling</option>
+            <option value="bvpixel">BV Pixel</option>
+            <option value="seo">SEO</option>
+            <option value="container">Container Page</option>
+            <option value="piefeed">PIE feed</option>
+               </optgroup>
+               <optgroup label="Launch">
+               <option value="stagingqa">Staging QA</option>
+               <option value="launch">Launch</option>
+               <option value="prodqa">Production QA</option>
+                  </optgroup>
+                  <optgroup label="Closure">
+                  <option value="certification">Certification</option>
+                  <option value="retrospective">Retrospective Call</option>
+                  <option value="supporthandover">Handover to Support</option>
+                  <option value="cshandover">Handover to Client Success</option>
           </optgroup>
-          <optgroup label="Configuration">
-          <option value="termsandconditions">T&Cs</option>
-          <option value="questions">Submission Questions</option>
-          <option value="moderation">Moderation Guidelines</option>
-          <option value="email">Email Config & Templates</option>
-          <option value="workbench">Workbench Training</option>
-          <option value="syndication">Syndication</option>
-        </optgroup>
-        <optgroup label="Display">
-        <option value="displayintegration">Display Integration</option>
-        <option value="displaystyling">Display Styling</option>
-        <option value="bvpixel">BV Pixel</option>
-        <option value="seo">SEO</option>
-        <option value="container">Container Page</option>
-        <option value="piefeed">PIE feed</option>
-           </optgroup>
-           <optgroup label="Launch">
-           <option value="stagingqa">Staging QA</option>
-           <option value="launch">Launch</option>
-           <option value="prodqa">Production QA</option>
+              </select>
+            </div>
+            <div class="form-group col-sm-4">
+              Due Date: <input type="date" class="form-control" name="duedate[]">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-sm-4">
+              Task/Delivearble #4: <select class="form-control" name="tasks[]">
+                <optgroup label="Kick-off">
+                <option value="kick-off">Kick-off Call</option>
+                <option value="business">Configuration Primer</option>
+                <option value="techkick-off">Technical Kick-off Call</option>
+                <option value="cataloguefeed">Catalogue Feed</option>
               </optgroup>
-              <optgroup label="Closure">
-              <option value="certification">Certification</option>
-              <option value="retrospective">Retrospective Call</option>
-              <option value="supporthandover">Handover to Support</option>
-              <option value="cshandover">Handover to Client Success</option>
-      </optgroup>
-          </select>
-          Due Date: <input type="date" class="form-control" name="duedate[]"><br>
-          Task/Deliverable #5: <select class="form-control" name="tasks[]">
-            <optgroup label="Kick-off">
-            <option value="kick-off">Kick-off Call</option>
-            <option value="business">Configuration Primer</option>
-            <option value="techkick-off">Technical Kick-off Call</option>
-            <option value="cataloguefeed">Catalogue Feed</option>
+              <optgroup label="Configuration">
+              <option value="termsandconditions">T&Cs</option>
+              <option value="questions">Submission Questions</option>
+              <option value="moderation">Moderation Guidelines</option>
+              <option value="email">Email Config & Templates</option>
+              <option value="workbench">Workbench Training</option>
+              <option value="syndication">Syndication</option>
+            </optgroup>
+            <optgroup label="Display">
+            <option value="displayintegration">Display Integration</option>
+            <option value="displaystyling">Display Styling</option>
+            <option value="bvpixel">BV Pixel</option>
+            <option value="seo">SEO</option>
+            <option value="container">Container Page</option>
+            <option value="piefeed">PIE feed</option>
+               </optgroup>
+               <optgroup label="Launch">
+               <option value="stagingqa">Staging QA</option>
+               <option value="launch">Launch</option>
+               <option value="prodqa">Production QA</option>
+                  </optgroup>
+                  <optgroup label="Closure">
+                  <option value="certification">Certification</option>
+                  <option value="retrospective">Retrospective Call</option>
+                  <option value="supporthandover">Handover to Support</option>
+                  <option value="cshandover">Handover to Client Success</option>
           </optgroup>
-          <optgroup label="Configuration">
-          <option value="termsandconditions">T&Cs</option>
-          <option value="questions">Submission Questions</option>
-          <option value="moderation">Moderation Guidelines</option>
-          <option value="email">Email Config & Templates</option>
-          <option value="workbench">Workbench Training</option>
-          <option value="syndication">Syndication</option>
-        </optgroup>
-        <optgroup label="Display">
-        <option value="displayintegration">Display Integration</option>
-        <option value="displaystyling">Display Styling</option>
-        <option value="bvpixel">BV Pixel</option>
-        <option value="seo">SEO</option>
-        <option value="container">Container Page</option>
-        <option value="piefeed">PIE feed</option>
-           </optgroup>
-           <optgroup label="Launch">
-           <option value="stagingqa">Staging QA</option>
-           <option value="launch">Launch</option>
-           <option value="prodqa">Production QA</option>
+              </select>
+            </div>
+            <div class="form-group col-sm-4">
+              Due Date: <input type="date" class="form-control" name="duedate[]">
+            </div>
+          </div>
+          <div class="form-row">
+       <div class="form-group col-sm-4">
+                   Task/Deliverable #5: <select class="form-control" name="tasks[]">
+                <optgroup label="Kick-off">
+                <option value="kick-off">Kick-off Call</option>
+                <option value="business">Configuration Primer</option>
+                <option value="techkick-off">Technical Kick-off Call</option>
+                <option value="cataloguefeed">Catalogue Feed</option>
               </optgroup>
-              <optgroup label="Closure">
-              <option value="certification">Certification</option>
-              <option value="retrospective">Retrospective Call</option>
-              <option value="supporthandover">Handover to Support</option>
-              <option value="cshandover">Handover to Client Success</option>
-      </optgroup>
-          </select>
-          Due Date: <input type="date" class="form-control" name="duedate[]">
+              <optgroup label="Configuration">
+              <option value="termsandconditions">T&Cs</option>
+              <option value="questions">Submission Questions</option>
+              <option value="moderation">Moderation Guidelines</option>
+              <option value="email">Email Config & Templates</option>
+              <option value="workbench">Workbench Training</option>
+              <option value="syndication">Syndication</option>
+            </optgroup>
+            <optgroup label="Display">
+            <option value="displayintegration">Display Integration</option>
+            <option value="displaystyling">Display Styling</option>
+            <option value="bvpixel">BV Pixel</option>
+            <option value="seo">SEO</option>
+            <option value="container">Container Page</option>
+            <option value="piefeed">PIE feed</option>
+               </optgroup>
+               <optgroup label="Launch">
+               <option value="stagingqa">Staging QA</option>
+               <option value="launch">Launch</option>
+               <option value="prodqa">Production QA</option>
+                  </optgroup>
+                  <optgroup label="Closure">
+                  <option value="certification">Certification</option>
+                  <option value="retrospective">Retrospective Call</option>
+                  <option value="supporthandover">Handover to Support</option>
+                  <option value="cshandover">Handover to Client Success</option>
+          </optgroup>
+              </select>
+            </div>
+            <div class="from-group col-sm-4">
+              Due Date: <input type="date" class="form-control" name="duedate[]">
+            </div>
+          </div>
         </fieldset>
+
         <fieldset>
+          <div class="form-row">
            <legend>Milestone #5:</legend>
-           Name: <input type="text" class="form-control" name="name[]">
-           Start Date: <input type="date" class="form-control" name="startdate[]">
-           End Date: <input type="date" class="form-control" name="enddate[]"><br>
-           Task/Deliverable #1: <select class="form-control" name="tasks[]">
-             <optgroup label="Kick-off">
-             <option value="kick-off">Kick-off Call</option>
-             <option value="business">Configuration Primer</option>
-             <option value="techkick-off">Technical Kick-off Call</option>
-             <option value="cataloguefeed">Catalogue Feed</option>
-           </optgroup>
-           <optgroup label="Configuration">
-           <option value="termsandconditions">T&Cs</option>
-           <option value="questions">Submission Questions</option>
-           <option value="moderation">Moderation Guidelines</option>
-           <option value="email">Email Config & Templates</option>
-           <option value="workbench">Workbench Training</option>
-           <option value="syndication">Syndication</option>
-         </optgroup>
-         <optgroup label="Display">
-         <option value="displayintegration">Display Integration</option>
-         <option value="displaystyling">Display Styling</option>
-         <option value="bvpixel">BV Pixel</option>
-         <option value="seo">SEO</option>
-         <option value="container">Container Page</option>
-         <option value="piefeed">PIE feed</option>
-            </optgroup>
-            <optgroup label="Launch">
-            <option value="stagingqa">Staging QA</option>
-            <option value="launch">Launch</option>
-            <option value="prodqa">Production QA</option>
+           <div class="form-group col-sm-4">
+           Name: <input type="text" class="form-control" name="name[]" />
+         </div>
+          <div class="form-group col-sm-4">
+           Start Date: <input type="date" class="form-control" name="startdate[]" />
+         </div>
+          <div class="form-group col-sm-4">
+           End Date: <input type="date" class="form-control" name="enddate[]" />
+         </div>
+       </div>
+           <div class="form-row">
+              <div class="form-group col-sm-4">
+               Task/Deliverable #1 <select class="form-control" name="tasks[]">
+                 <optgroup label="Kick-off">
+                 <option value="kick-off">Kick-off Call</option>
+                 <option value="business">Configuration Primer</option>
+                 <option value="techkick-off">Technical Kick-off Call</option>
+                 <option value="cataloguefeed">Catalogue Feed</option>
                </optgroup>
-               <optgroup label="Closure">
-               <option value="certification">Certification</option>
-               <option value="retrospective">Retrospective Call</option>
-               <option value="supporthandover">Handover to Support</option>
-               <option value="cshandover">Handover to Client Success</option>
-       </optgroup>
-           </select>
-           Due Date: <input type ="date" class="form-control" name="duedate[]"><br>
-           Task/Deliverable #2: <select class="form-control" name="tasks[]">
-             <optgroup label="Kick-off">
-             <option value="kick-off">Kick-off Call</option>
-             <option value="business">Configuration Primer</option>
-             <option value="techkick-off">Technical Kick-off Call</option>
-             <option value="cataloguefeed">Catalogue Feed</option>
+               <optgroup label="Configuration">
+               <option value="termsandconditions">T&Cs</option>
+               <option value="questions">Submission Questions</option>
+               <option value="moderation">Moderation Guidelines</option>
+               <option value="email">Email Config & Templates</option>
+               <option value="workbench">Workbench Training</option>
+               <option value="syndication">Syndication</option>
+             </optgroup>
+             <optgroup label="Display">
+             <option value="displayintegration">Display Integration</option>
+             <option value="displaystyling">Display Styling</option>
+             <option value="bvpixel">BV Pixel</option>
+             <option value="seo">SEO</option>
+             <option value="container">Container Page</option>
+             <option value="piefeed">PIE feed</option>
+                </optgroup>
+                <optgroup label="Launch">
+                <option value="stagingqa">Staging QA</option>
+                <option value="launch">Launch</option>
+                <option value="prodqa">Production QA</option>
+                   </optgroup>
+                   <optgroup label="Closure">
+                   <option value="certification">Certification</option>
+                   <option value="retrospective">Retrospective Call</option>
+                   <option value="supporthandover">Handover to Support</option>
+                   <option value="cshandover">Handover to Client Success</option>
            </optgroup>
-           <optgroup label="Configuration">
-           <option value="termsandconditions">T&Cs</option>
-           <option value="questions">Submission Questions</option>
-           <option value="moderation">Moderation Guidelines</option>
-           <option value="email">Email Config & Templates</option>
-           <option value="workbench">Workbench Training</option>
-           <option value="syndication">Syndication</option>
-         </optgroup>
-         <optgroup label="Display">
-         <option value="displayintegration">Display Integration</option>
-         <option value="displaystyling">Display Styling</option>
-         <option value="bvpixel">BV Pixel</option>
-         <option value="seo">SEO</option>
-         <option value="container">Container Page</option>
-         <option value="piefeed">PIE feed</option>
-            </optgroup>
-            <optgroup label="Launch">
-            <option value="stagingqa">Staging QA</option>
-            <option value="launch">Launch</option>
-            <option value="prodqa">Production QA</option>
+               </select>
+             </div>
+             <div class="form-group col-sm-4">
+               Due Date: <input type ="date" class="form-control" name="duedate[]">
+             </div>
+           </div>
+           <div class="form-row">
+              <div class="form-group col-sm-4">
+               Task/Deliverable #2: <select class="form-control" name="tasks[]">
+                 <optgroup label="Kick-off">
+                 <option value="kick-off">Kick-off Call</option>
+                 <option value="business">Configuration Primer</option>
+                 <option value="techkick-off">Technical Kick-off Call</option>
+                 <option value="cataloguefeed">Catalogue Feed</option>
                </optgroup>
-               <optgroup label="Closure">
-               <option value="certification">Certification</option>
-               <option value="retrospective">Retrospective Call</option>
-               <option value="supporthandover">Handover to Support</option>
-               <option value="cshandover">Handover to Client Success</option>
-       </optgroup>
-           </select>
-           Due Date: <input type="date" class="form-control" name="duedate[]"><br>
-           Task/Deliverable #3: <select class="form-control" name="tasks[]">
-             <optgroup label="Kick-off">
-             <option value="kick-off">Kick-off Call</option>
-             <option value="business">Configuration Primer</option>
-             <option value="techkick-off">Technical Kick-off Call</option>
-             <option value="cataloguefeed">Catalogue Feed</option>
+               <optgroup label="Configuration">
+               <option value="termsandconditions">T&Cs</option>
+               <option value="questions">Submission Questions</option>
+               <option value="moderation">Moderation Guidelines</option>
+               <option value="email">Email Config & Templates</option>
+               <option value="workbench">Workbench Training</option>
+               <option value="syndication">Syndication</option>
+             </optgroup>
+             <optgroup label="Display">
+             <option value="displayintegration">Display Integration</option>
+             <option value="displaystyling">Display Styling</option>
+             <option value="bvpixel">BV Pixel</option>
+             <option value="seo">SEO</option>
+             <option value="container">Container Page</option>
+             <option value="piefeed">PIE feed</option>
+                </optgroup>
+                <optgroup label="Launch">
+                <option value="stagingqa">Staging QA</option>
+                <option value="launch">Launch</option>
+                <option value="prodqa">Production QA</option>
+                   </optgroup>
+                   <optgroup label="Closure">
+                   <option value="certification">Certification</option>
+                   <option value="retrospective">Retrospective Call</option>
+                   <option value="supporthandover">Handover to Support</option>
+                   <option value="cshandover">Handover to Client Success</option>
            </optgroup>
-           <optgroup label="Configuration">
-           <option value="termsandconditions">T&Cs</option>
-           <option value="questions">Submission Questions</option>
-           <option value="moderation">Moderation Guidelines</option>
-           <option value="email">Email Config & Templates</option>
-           <option value="workbench">Workbench Training</option>
-           <option value="syndication">Syndication</option>
-         </optgroup>
-         <optgroup label="Display">
-         <option value="displayintegration">Display Integration</option>
-         <option value="displaystyling">Display Styling</option>
-         <option value="bvpixel">BV Pixel</option>
-         <option value="seo">SEO</option>
-         <option value="container">Container Page</option>
-         <option value="piefeed">PIE feed</option>
-            </optgroup>
-            <optgroup label="Launch">
-            <option value="stagingqa">Staging QA</option>
-            <option value="launch">Launch</option>
-            <option value="prodqa">Production QA</option>
+               </select>
+        </div>
+        <div class="form-group col-sm-4">
+               Due Date: <input type="date" class="form-control" name="duedate[]">
+             </div>
+           </div>
+           <div class="form-row">
+             <div class="form-group col-sm-4">
+               Task/Deliverable #3: <select class="form-control" name="tasks[]">
+                 <optgroup label="Kick-off">
+                 <option value="kick-off">Kick-off Call</option>
+                 <option value="business">Configuration Primer</option>
+                 <option value="techkick-off">Technical Kick-off Call</option>
+                 <option value="cataloguefeed">Catalogue Feed</option>
                </optgroup>
-               <optgroup label="Closure">
-               <option value="certification">Certification</option>
-               <option value="retrospective">Retrospective Call</option>
-               <option value="supporthandover">Handover to Support</option>
-               <option value="cshandover">Handover to Client Success</option>
-       </optgroup>
-           </select>
-           Due Date: <input type="date" class="form-control" name="duedate[]"><br>
-           Task/Delivearble #4: <select class="form-control" name="tasks[]">
-             <optgroup label="Kick-off">
-             <option value="kick-off">Kick-off Call</option>
-             <option value="business">Configuration Primer</option>
-             <option value="techkick-off">Technical Kick-off Call</option>
-             <option value="cataloguefeed">Catalogue Feed</option>
+               <optgroup label="Configuration">
+               <option value="termsandconditions">T&Cs</option>
+               <option value="questions">Submission Questions</option>
+               <option value="moderation">Moderation Guidelines</option>
+               <option value="email">Email Config & Templates</option>
+               <option value="workbench">Workbench Training</option>
+               <option value="syndication">Syndication</option>
+             </optgroup>
+             <optgroup label="Display">
+             <option value="displayintegration">Display Integration</option>
+             <option value="displaystyling">Display Styling</option>
+             <option value="bvpixel">BV Pixel</option>
+             <option value="seo">SEO</option>
+             <option value="container">Container Page</option>
+             <option value="piefeed">PIE feed</option>
+                </optgroup>
+                <optgroup label="Launch">
+                <option value="stagingqa">Staging QA</option>
+                <option value="launch">Launch</option>
+                <option value="prodqa">Production QA</option>
+                   </optgroup>
+                   <optgroup label="Closure">
+                   <option value="certification">Certification</option>
+                   <option value="retrospective">Retrospective Call</option>
+                   <option value="supporthandover">Handover to Support</option>
+                   <option value="cshandover">Handover to Client Success</option>
            </optgroup>
-           <optgroup label="Configuration">
-           <option value="termsandconditions">T&Cs</option>
-           <option value="questions">Submission Questions</option>
-           <option value="moderation">Moderation Guidelines</option>
-           <option value="email">Email Config & Templates</option>
-           <option value="workbench">Workbench Training</option>
-           <option value="syndication">Syndication</option>
-         </optgroup>
-         <optgroup label="Display">
-         <option value="displayintegration">Display Integration</option>
-         <option value="displaystyling">Display Styling</option>
-         <option value="bvpixel">BV Pixel</option>
-         <option value="seo">SEO</option>
-         <option value="container">Container Page</option>
-         <option value="piefeed">PIE feed</option>
-            </optgroup>
-            <optgroup label="Launch">
-            <option value="stagingqa">Staging QA</option>
-            <option value="launch">Launch</option>
-            <option value="prodqa">Production QA</option>
+               </select>
+             </div>
+             <div class="form-group col-sm-4">
+               Due Date: <input type="date" class="form-control" name="duedate[]">
+             </div>
+           </div>
+           <div class="form-row">
+             <div class="form-group col-sm-4">
+               Task/Delivearble #4: <select class="form-control" name="tasks[]">
+                 <optgroup label="Kick-off">
+                 <option value="kick-off">Kick-off Call</option>
+                 <option value="business">Configuration Primer</option>
+                 <option value="techkick-off">Technical Kick-off Call</option>
+                 <option value="cataloguefeed">Catalogue Feed</option>
                </optgroup>
-               <optgroup label="Closure">
-               <option value="certification">Certification</option>
-               <option value="retrospective">Retrospective Call</option>
-               <option value="supporthandover">Handover to Support</option>
-               <option value="cshandover">Handover to Client Success</option>
-       </optgroup>
-           </select>
-           Due Date: <input type="date" class="form-control" name="duedate[]"><br>
-           Task/Deliverable #5: <select class="form-control" name="tasks[]">
-             <optgroup label="Kick-off">
-             <option value="kick-off">Kick-off Call</option>
-             <option value="business">Configuration Primer</option>
-             <option value="techkick-off">Technical Kick-off Call</option>
-             <option value="cataloguefeed">Catalogue Feed</option>
+               <optgroup label="Configuration">
+               <option value="termsandconditions">T&Cs</option>
+               <option value="questions">Submission Questions</option>
+               <option value="moderation">Moderation Guidelines</option>
+               <option value="email">Email Config & Templates</option>
+               <option value="workbench">Workbench Training</option>
+               <option value="syndication">Syndication</option>
+             </optgroup>
+             <optgroup label="Display">
+             <option value="displayintegration">Display Integration</option>
+             <option value="displaystyling">Display Styling</option>
+             <option value="bvpixel">BV Pixel</option>
+             <option value="seo">SEO</option>
+             <option value="container">Container Page</option>
+             <option value="piefeed">PIE feed</option>
+                </optgroup>
+                <optgroup label="Launch">
+                <option value="stagingqa">Staging QA</option>
+                <option value="launch">Launch</option>
+                <option value="prodqa">Production QA</option>
+                   </optgroup>
+                   <optgroup label="Closure">
+                   <option value="certification">Certification</option>
+                   <option value="retrospective">Retrospective Call</option>
+                   <option value="supporthandover">Handover to Support</option>
+                   <option value="cshandover">Handover to Client Success</option>
            </optgroup>
-           <optgroup label="Configuration">
-           <option value="termsandconditions">T&Cs</option>
-           <option value="questions">Submission Questions</option>
-           <option value="moderation">Moderation Guidelines</option>
-           <option value="email">Email Config & Templates</option>
-           <option value="workbench">Workbench Training</option>
-           <option value="syndication">Syndication</option>
-         </optgroup>
-         <optgroup label="Display">
-         <option value="displayintegration">Display Integration</option>
-         <option value="displaystyling">Display Styling</option>
-         <option value="bvpixel">BV Pixel</option>
-         <option value="seo">SEO</option>
-         <option value="container">Container Page</option>
-         <option value="piefeed">PIE feed</option>
-            </optgroup>
-            <optgroup label="Launch">
-            <option value="stagingqa">Staging QA</option>
-            <option value="launch">Launch</option>
-            <option value="prodqa">Production QA</option>
+               </select>
+             </div>
+             <div class="form-group col-sm-4">
+               Due Date: <input type="date" class="form-control" name="duedate[]">
+             </div>
+           </div>
+           <div class="form-row">
+        <div class="form-group col-sm-4">
+                    Task/Deliverable #5: <select class="form-control" name="tasks[]">
+                 <optgroup label="Kick-off">
+                 <option value="kick-off">Kick-off Call</option>
+                 <option value="business">Configuration Primer</option>
+                 <option value="techkick-off">Technical Kick-off Call</option>
+                 <option value="cataloguefeed">Catalogue Feed</option>
                </optgroup>
-               <optgroup label="Closure">
-               <option value="certification">Certification</option>
-               <option value="retrospective">Retrospective Call</option>
-               <option value="supporthandover">Handover to Support</option>
-               <option value="cshandover">Handover to Client Success</option>
-       </optgroup>
-           </select>
-           Due Date: <input type="date" class="form-control" name="duedate[]">
+               <optgroup label="Configuration">
+               <option value="termsandconditions">T&Cs</option>
+               <option value="questions">Submission Questions</option>
+               <option value="moderation">Moderation Guidelines</option>
+               <option value="email">Email Config & Templates</option>
+               <option value="workbench">Workbench Training</option>
+               <option value="syndication">Syndication</option>
+             </optgroup>
+             <optgroup label="Display">
+             <option value="displayintegration">Display Integration</option>
+             <option value="displaystyling">Display Styling</option>
+             <option value="bvpixel">BV Pixel</option>
+             <option value="seo">SEO</option>
+             <option value="container">Container Page</option>
+             <option value="piefeed">PIE feed</option>
+                </optgroup>
+                <optgroup label="Launch">
+                <option value="stagingqa">Staging QA</option>
+                <option value="launch">Launch</option>
+                <option value="prodqa">Production QA</option>
+                   </optgroup>
+                   <optgroup label="Closure">
+                   <option value="certification">Certification</option>
+                   <option value="retrospective">Retrospective Call</option>
+                   <option value="supporthandover">Handover to Support</option>
+                   <option value="cshandover">Handover to Client Success</option>
+           </optgroup>
+               </select>
+             </div>
+             <div class="from-group col-sm-4">
+               Due Date: <input type="date" class="form-control" name="duedate[]">
+             </div>
+           </div>
+
          </fieldset>
-        <input type="submit" value="Submit">
+        <input class="btn btn-primary btn-lg" type="submit" value="Submit">
         </form>
 </body>
 </html>
