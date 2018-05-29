@@ -1,3 +1,3 @@
-$(".js-add-milestone").on("click", function(){
-    alert("The paragraph was clicked.");
+$('.js-add-milestone').on('click', function(){
+    $('form').append($('#milestonefull').html())
 });
