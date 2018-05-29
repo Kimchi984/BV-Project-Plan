@@ -1,3 +1,3 @@
 $('.js-add-milestone').on('click', function(){
-    $('form').append($('#milestonefull').html())
+    $('.js-button-wrap').before($('#milestonefull').html())
 });
