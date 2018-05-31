@@ -3,10 +3,17 @@ $('.js-add-milestone').on('click', function(){
 });
 
 
-
 $('form').on('click', '.js-add-task', function(event){
     $(event.target).closest('.form-row').after($('#new-task-row').html())
 });
+
+
+$('#submit').on('click', function(event){
+    event.preventDefault()
+});
+
+
+
 
 var milestone = "Milestone"
 var task = "Task/Deliverable"
